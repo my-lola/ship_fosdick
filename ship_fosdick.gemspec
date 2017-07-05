@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'spree_core', '~> 2.4'
+  spec.add_dependency 'spree_core', '>= 2.4'
   spec.add_dependency 'nokogiri'
   spec.add_dependency 's3'
   spec.add_dependency 'httparty'
